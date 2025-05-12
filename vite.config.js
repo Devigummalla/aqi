@@ -7,11 +7,7 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-      },
-    },
+    
   },
   server: {
     port: 3000,
